@@ -1,6 +1,6 @@
 
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "euromillions_4.csv", false);
+    rawFile.open("GET", "euromillions_202002.csv", false);
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
